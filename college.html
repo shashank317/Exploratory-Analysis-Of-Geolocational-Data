@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_7c6dbc30f1f8d06e670276de01af06fc {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_7c6dbc30f1f8d06e670276de01af06fc" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_7c6dbc30f1f8d06e670276de01af06fc = L.map(
+                "map_7c6dbc30f1f8d06e670276de01af06fc",
+                {
+                    center: [17.320486, 76.839752],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_55278dba9a7270a1f7ef84db04cff5b7 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_7c6dbc30f1f8d06e670276de01af06fc);
+        
+    
+            var circle_marker_c0ebac8e2c518bc3b9a1fc86d0b2c6d3 = L.circleMarker(
+                [17.31923, 76.83978],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25, "stroke": true, "weight": 3}
+            ).addTo(map_7c6dbc30f1f8d06e670276de01af06fc);
+        
+    
+        var popup_df9653822ad028e1bb9059232dad91e9 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_2e61bdbef2b4ed2e98867abf6a1e4d09 = $(`<div id="html_2e61bdbef2b4ed2e98867abf6a1e4d09" style="width: 100.0%; height: 100.0%;">Government Nursing College</div>`)[0];
+                popup_df9653822ad028e1bb9059232dad91e9.setContent(html_2e61bdbef2b4ed2e98867abf6a1e4d09);
+            
+        
+
+        circle_marker_c0ebac8e2c518bc3b9a1fc86d0b2c6d3.bindPopup(popup_df9653822ad028e1bb9059232dad91e9)
+        ;
+
+        
+    
+    
+            var circle_marker_a05702fc049d26377514057642a39292 = L.circleMarker(
+                [17.31923, 76.83978],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25, "stroke": true, "weight": 3}
+            ).addTo(map_7c6dbc30f1f8d06e670276de01af06fc);
+        
+    
+        var popup_a7687cb058de96847cd4c1f0756f91d5 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_b580683170c19b65f7e2b18cc3e0a8bc = $(`<div id="html_b580683170c19b65f7e2b18cc3e0a8bc" style="width: 100.0%; height: 100.0%;">D R S School of Institute</div>`)[0];
+                popup_a7687cb058de96847cd4c1f0756f91d5.setContent(html_b580683170c19b65f7e2b18cc3e0a8bc);
+            
+        
+
+        circle_marker_a05702fc049d26377514057642a39292.bindPopup(popup_a7687cb058de96847cd4c1f0756f91d5)
+        ;
+
+        
+    
+    
+            var circle_marker_e05270288cd6df3045b0bb8ff34e1c17 = L.circleMarker(
+                [17.31923, 76.83978],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25, "stroke": true, "weight": 3}
+            ).addTo(map_7c6dbc30f1f8d06e670276de01af06fc);
+        
+    
+        var popup_6a1128fddd455a201f076993a92042c0 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_7bd06f3f92dedb11cefbc849c09628b2 = $(`<div id="html_7bd06f3f92dedb11cefbc849c09628b2" style="width: 100.0%; height: 100.0%;">Mahadeppe Rampur Medical College</div>`)[0];
+                popup_6a1128fddd455a201f076993a92042c0.setContent(html_7bd06f3f92dedb11cefbc849c09628b2);
+            
+        
+
+        circle_marker_e05270288cd6df3045b0bb8ff34e1c17.bindPopup(popup_6a1128fddd455a201f076993a92042c0)
+        ;
+
+        
+    
+    
+            var circle_marker_fddd2ef78c4ef07ed35c75b581930507 = L.circleMarker(
+                [17.3172, 76.83743],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25, "stroke": true, "weight": 3}
+            ).addTo(map_7c6dbc30f1f8d06e670276de01af06fc);
+        
+    
+        var popup_ed30ad083865d2f654cbae578aaff176 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_2d01158cbc050ddb184012d7b0c47375 = $(`<div id="html_2d01158cbc050ddb184012d7b0c47375" style="width: 100.0%; height: 100.0%;">Government Independent College</div>`)[0];
+                popup_ed30ad083865d2f654cbae578aaff176.setContent(html_2d01158cbc050ddb184012d7b0c47375);
+            
+        
+
+        circle_marker_fddd2ef78c4ef07ed35c75b581930507.bindPopup(popup_ed30ad083865d2f654cbae578aaff176)
+        ;
+
+        
+    
+    
+            var circle_marker_2bb056c825176f08481cbe3fdfde864c = L.circleMarker(
+                [17.3173, 76.83651],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25, "stroke": true, "weight": 3}
+            ).addTo(map_7c6dbc30f1f8d06e670276de01af06fc);
+        
+    
+        var popup_5b441625a62d6cb9f5b1b42bf1cb0265 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_0bab3550727afa48aacfeffa08937239 = $(`<div id="html_0bab3550727afa48aacfeffa08937239" style="width: 100.0%; height: 100.0%;">College of Teacher Education</div>`)[0];
+                popup_5b441625a62d6cb9f5b1b42bf1cb0265.setContent(html_0bab3550727afa48aacfeffa08937239);
+            
+        
+
+        circle_marker_2bb056c825176f08481cbe3fdfde864c.bindPopup(popup_5b441625a62d6cb9f5b1b42bf1cb0265)
+        ;
+
+        
+    
+    
+            var circle_marker_4b175b3fae523512f040bb15661718f9 = L.circleMarker(
+                [17.31585, 76.83733],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25, "stroke": true, "weight": 3}
+            ).addTo(map_7c6dbc30f1f8d06e670276de01af06fc);
+        
+    
+        var popup_03b0944b36139fdcc666c76f00fe8c13 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_6ae52e4a3fec075bc612479c8596db93 = $(`<div id="html_6ae52e4a3fec075bc612479c8596db93" style="width: 100.0%; height: 100.0%;">H. K. E Society M. S. I. Arts & Science Degree College</div>`)[0];
+                popup_03b0944b36139fdcc666c76f00fe8c13.setContent(html_6ae52e4a3fec075bc612479c8596db93);
+            
+        
+
+        circle_marker_4b175b3fae523512f040bb15661718f9.bindPopup(popup_03b0944b36139fdcc666c76f00fe8c13)
+        ;
+
+        
+    
+    
+            var circle_marker_dbc3bb1ce871e5c1fbb7ac0e67844d74 = L.circleMarker(
+                [17.31553, 76.83777],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25, "stroke": true, "weight": 3}
+            ).addTo(map_7c6dbc30f1f8d06e670276de01af06fc);
+        
+    
+        var popup_876876bb622129c1ee115c38aa234bcd = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_6b262d0ed15656655ebf6d09e1b8379d = $(`<div id="html_6b262d0ed15656655ebf6d09e1b8379d" style="width: 100.0%; height: 100.0%;">M. S. I. College</div>`)[0];
+                popup_876876bb622129c1ee115c38aa234bcd.setContent(html_6b262d0ed15656655ebf6d09e1b8379d);
+            
+        
+
+        circle_marker_dbc3bb1ce871e5c1fbb7ac0e67844d74.bindPopup(popup_876876bb622129c1ee115c38aa234bcd)
+        ;
+
+        
+    
+    
+            var circle_marker_385938779cfeac7a381d3abeab1062b6 = L.circleMarker(
+                [17.31523, 76.83779],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25, "stroke": true, "weight": 3}
+            ).addTo(map_7c6dbc30f1f8d06e670276de01af06fc);
+        
+    
+        var popup_b8c4b201faed6a40a703c3033d3404f0 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_61d9b9f656df8bcad90db6add290285f = $(`<div id="html_61d9b9f656df8bcad90db6add290285f" style="width: 100.0%; height: 100.0%;">H K E Polytechnic College</div>`)[0];
+                popup_b8c4b201faed6a40a703c3033d3404f0.setContent(html_61d9b9f656df8bcad90db6add290285f);
+            
+        
+
+        circle_marker_385938779cfeac7a381d3abeab1062b6.bindPopup(popup_b8c4b201faed6a40a703c3033d3404f0)
+        ;
+
+        
+    
+    
+            var circle_marker_72329bdd4dcb2240a6943fe4c006abcc = L.circleMarker(
+                [17.31673, 76.83421],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25, "stroke": true, "weight": 3}
+            ).addTo(map_7c6dbc30f1f8d06e670276de01af06fc);
+        
+    
+        var popup_d039f3b9094e8235a1ad117d0aa93a9f = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_4c342e9f8122c5673355c7a734c2a225 = $(`<div id="html_4c342e9f8122c5673355c7a734c2a225" style="width: 100.0%; height: 100.0%;">Government Polytechnic</div>`)[0];
+                popup_d039f3b9094e8235a1ad117d0aa93a9f.setContent(html_4c342e9f8122c5673355c7a734c2a225);
+            
+        
+
+        circle_marker_72329bdd4dcb2240a6943fe4c006abcc.bindPopup(popup_d039f3b9094e8235a1ad117d0aa93a9f)
+        ;
+
+        
+    
+    
+            var circle_marker_20c8319e15ee8f9def700a1630904eaa = L.circleMarker(
+                [17.32052, 76.83295],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25, "stroke": true, "weight": 3}
+            ).addTo(map_7c6dbc30f1f8d06e670276de01af06fc);
+        
+    
+        var popup_d4ae2e819f51113287828a10752279ef = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_20bab704ac8601de27b8d68de783393e = $(`<div id="html_20bab704ac8601de27b8d68de783393e" style="width: 100.0%; height: 100.0%;">Vijaya Vidyalaya Copm Pre Uni College</div>`)[0];
+                popup_d4ae2e819f51113287828a10752279ef.setContent(html_20bab704ac8601de27b8d68de783393e);
+            
+        
+
+        circle_marker_20c8319e15ee8f9def700a1630904eaa.bindPopup(popup_d4ae2e819f51113287828a10752279ef)
+        ;
+
+        
+    
+    
+            var circle_marker_a0b362d2bed3d7509b4238246dfd2822 = L.circleMarker(
+                [17.31527, 76.83445],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25, "stroke": true, "weight": 3}
+            ).addTo(map_7c6dbc30f1f8d06e670276de01af06fc);
+        
+    
+        var popup_07c7a0140b627bd8330b7d494b98347e = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_9edac7d4e8b91cd72d59abf8bc9a35c9 = $(`<div id="html_9edac7d4e8b91cd72d59abf8bc9a35c9" style="width: 100.0%; height: 100.0%;">Pda College of Engineering</div>`)[0];
+                popup_07c7a0140b627bd8330b7d494b98347e.setContent(html_9edac7d4e8b91cd72d59abf8bc9a35c9);
+            
+        
+
+        circle_marker_a0b362d2bed3d7509b4238246dfd2822.bindPopup(popup_07c7a0140b627bd8330b7d494b98347e)
+        ;
+
+        
+    
+    
+            var circle_marker_d8caef1adfea67ad0b9ed7e3b989a9c7 = L.circleMarker(
+                [17.31722, 76.83289],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25, "stroke": true, "weight": 3}
+            ).addTo(map_7c6dbc30f1f8d06e670276de01af06fc);
+        
+    
+        var popup_e98cde1c02df419820cfa3b47274ef86 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_180ca519132afa06a016eafaace27f1c = $(`<div id="html_180ca519132afa06a016eafaace27f1c" style="width: 100.0%; height: 100.0%;">Kottal Basaveshwar Community College</div>`)[0];
+                popup_e98cde1c02df419820cfa3b47274ef86.setContent(html_180ca519132afa06a016eafaace27f1c);
+            
+        
+
+        circle_marker_d8caef1adfea67ad0b9ed7e3b989a9c7.bindPopup(popup_e98cde1c02df419820cfa3b47274ef86)
+        ;
+
+        
+    
+    
+            var circle_marker_8e7f6da11ea736e3b6484b4dc6f5592a = L.circleMarker(
+                [17.32263, 76.8471],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25, "stroke": true, "weight": 3}
+            ).addTo(map_7c6dbc30f1f8d06e670276de01af06fc);
+        
+    
+        var popup_87acdc4777bd28ad940a4ae30660bad3 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_77cc6f407dd534967d5617ee9ab1826a = $(`<div id="html_77cc6f407dd534967d5617ee9ab1826a" style="width: 100.0%; height: 100.0%;">D R S School of Institute</div>`)[0];
+                popup_87acdc4777bd28ad940a4ae30660bad3.setContent(html_77cc6f407dd534967d5617ee9ab1826a);
+            
+        
+
+        circle_marker_8e7f6da11ea736e3b6484b4dc6f5592a.bindPopup(popup_87acdc4777bd28ad940a4ae30660bad3)
+        ;
+
+        
+    
+    
+            var circle_marker_a1204245a518db6291437b42a60b321f = L.circleMarker(
+                [17.31609, 76.83312],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25, "stroke": true, "weight": 3}
+            ).addTo(map_7c6dbc30f1f8d06e670276de01af06fc);
+        
+    
+        var popup_7fe19fa61a5cee06041a83f02bd878d4 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_dfd7fcdcc2c38d8b9d04393c5e6c0064 = $(`<div id="html_dfd7fcdcc2c38d8b9d04393c5e6c0064" style="width: 100.0%; height: 100.0%;">Govt. Polytechnic</div>`)[0];
+                popup_7fe19fa61a5cee06041a83f02bd878d4.setContent(html_dfd7fcdcc2c38d8b9d04393c5e6c0064);
+            
+        
+
+        circle_marker_a1204245a518db6291437b42a60b321f.bindPopup(popup_7fe19fa61a5cee06041a83f02bd878d4)
+        ;
+
+        
+    
+    
+            var circle_marker_2c8593993769e6123e978df19bc2ac6e = L.circleMarker(
+                [17.31514, 76.83393],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25, "stroke": true, "weight": 3}
+            ).addTo(map_7c6dbc30f1f8d06e670276de01af06fc);
+        
+    
+        var popup_640d8b33820586ee0d1942f568ae0caa = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_f342f1324efa2ac95305f0850de8f235 = $(`<div id="html_f342f1324efa2ac95305f0850de8f235" style="width: 100.0%; height: 100.0%;">H. K. E. Society's P. D. A. Engineering College</div>`)[0];
+                popup_640d8b33820586ee0d1942f568ae0caa.setContent(html_f342f1324efa2ac95305f0850de8f235);
+            
+        
+
+        circle_marker_2c8593993769e6123e978df19bc2ac6e.bindPopup(popup_640d8b33820586ee0d1942f568ae0caa)
+        ;
+
+        
+    
+    
+            var circle_marker_ebcff67c53dd128da614910ceb7daf59 = L.circleMarker(
+                [17.32841, 76.83889],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25, "stroke": true, "weight": 3}
+            ).addTo(map_7c6dbc30f1f8d06e670276de01af06fc);
+        
+    
+        var popup_2c219d77a8573d4031dc7280e9352a77 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_a81f89f9eb81e3fce58d30b0a0ac0584 = $(`<div id="html_a81f89f9eb81e3fce58d30b0a0ac0584" style="width: 100.0%; height: 100.0%;">Ded College Karnataka</div>`)[0];
+                popup_2c219d77a8573d4031dc7280e9352a77.setContent(html_a81f89f9eb81e3fce58d30b0a0ac0584);
+            
+        
+
+        circle_marker_ebcff67c53dd128da614910ceb7daf59.bindPopup(popup_2c219d77a8573d4031dc7280e9352a77)
+        ;
+
+        
+    
+    
+            var circle_marker_1122d0710aad48f70f3c35b51a935860 = L.circleMarker(
+                [17.3278, 76.83606],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25, "stroke": true, "weight": 3}
+            ).addTo(map_7c6dbc30f1f8d06e670276de01af06fc);
+        
+    
+        var popup_f2e5b4098707cee95a6fe788d4d4147b = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_568af5db472719cc3827e7f1b813e07d = $(`<div id="html_568af5db472719cc3827e7f1b813e07d" style="width: 100.0%; height: 100.0%;">Government Women's Degree College</div>`)[0];
+                popup_f2e5b4098707cee95a6fe788d4d4147b.setContent(html_568af5db472719cc3827e7f1b813e07d);
+            
+        
+
+        circle_marker_1122d0710aad48f70f3c35b51a935860.bindPopup(popup_f2e5b4098707cee95a6fe788d4d4147b)
+        ;
+
+        
+    
+    
+            var circle_marker_1f790545d6f0a49b798cca8efd18a3ad = L.circleMarker(
+                [17.32228, 76.84817],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25, "stroke": true, "weight": 3}
+            ).addTo(map_7c6dbc30f1f8d06e670276de01af06fc);
+        
+    
+        var popup_8fcfe83e19d02810557b1b35765aa139 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_4f68afc19e98446e923767c9596ad340 = $(`<div id="html_4f68afc19e98446e923767c9596ad340" style="width: 100.0%; height: 100.0%;">Vasantha B. Ed College</div>`)[0];
+                popup_8fcfe83e19d02810557b1b35765aa139.setContent(html_4f68afc19e98446e923767c9596ad340);
+            
+        
+
+        circle_marker_1f790545d6f0a49b798cca8efd18a3ad.bindPopup(popup_8fcfe83e19d02810557b1b35765aa139)
+        ;
+
+        
+    
+    
+            var circle_marker_1233b4c5d84edf9c94f7b48846e3190f = L.circleMarker(
+                [17.32718, 76.8449],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25, "stroke": true, "weight": 3}
+            ).addTo(map_7c6dbc30f1f8d06e670276de01af06fc);
+        
+    
+        var popup_d6369a91015849e2e6cc3cb5ad53041d = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_0603e7ac4a946690445522a7b4b26f25 = $(`<div id="html_0603e7ac4a946690445522a7b4b26f25" style="width: 100.0%; height: 100.0%;">Gulbarga Institute of Medical Sciences</div>`)[0];
+                popup_d6369a91015849e2e6cc3cb5ad53041d.setContent(html_0603e7ac4a946690445522a7b4b26f25);
+            
+        
+
+        circle_marker_1233b4c5d84edf9c94f7b48846e3190f.bindPopup(popup_d6369a91015849e2e6cc3cb5ad53041d)
+        ;
+
+        
+    
+    
+            var circle_marker_a8d19f5c88c6adff09d2328bdfa6b765 = L.circleMarker(
+                [17.31553, 76.83266],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25, "stroke": true, "weight": 3}
+            ).addTo(map_7c6dbc30f1f8d06e670276de01af06fc);
+        
+    
+        var popup_10dff9b726691f83113b9148f03973b8 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_151bf3844240e91b95dd261e34f69926 = $(`<div id="html_151bf3844240e91b95dd261e34f69926" style="width: 100.0%; height: 100.0%;">Poojya Doddappa Appa College of Engineering</div>`)[0];
+                popup_10dff9b726691f83113b9148f03973b8.setContent(html_151bf3844240e91b95dd261e34f69926);
+            
+        
+
+        circle_marker_a8d19f5c88c6adff09d2328bdfa6b765.bindPopup(popup_10dff9b726691f83113b9148f03973b8)
+        ;
+
+        
+    
+    
+            var feature_group_b818f9212dae62419f1224f126661aa6 = L.featureGroup(
+                {}
+            ).addTo(map_7c6dbc30f1f8d06e670276de01af06fc);
+        
+    
+            var marker_9f4f5ee6dd173efccce53521fac3d398 = L.marker(
+                [17.320486, 76.839752],
+                {"zoomStart": 50}
+            ).addTo(map_7c6dbc30f1f8d06e670276de01af06fc);
+        
+    
+        var popup_2cbb32ebcad9630edf0e634693cbe0e2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ee3be47e921eaa4340f31f1bfbd7459d = $(`<div id="html_ee3be47e921eaa4340f31f1bfbd7459d" style="width: 100.0%; height: 100.0%;">Search place</div>`)[0];
+                popup_2cbb32ebcad9630edf0e634693cbe0e2.setContent(html_ee3be47e921eaa4340f31f1bfbd7459d);
+            
+        
+
+        marker_9f4f5ee6dd173efccce53521fac3d398.bindPopup(popup_2cbb32ebcad9630edf0e634693cbe0e2)
+        ;
+
+        
+    
+</script>
+</html>

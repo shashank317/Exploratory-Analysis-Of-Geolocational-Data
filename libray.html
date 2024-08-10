@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_6c8786382a2690f7bd62c7b0354df5ed {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_6c8786382a2690f7bd62c7b0354df5ed" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_6c8786382a2690f7bd62c7b0354df5ed = L.map(
+                "map_6c8786382a2690f7bd62c7b0354df5ed",
+                {
+                    center: [17.320486, 76.839752],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_167ac3e0bf8dbed31b2131b9e2a7ff8c = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_6c8786382a2690f7bd62c7b0354df5ed);
+        
+    
+            var circle_marker_82d51a0c5fb30dfb13e5bccc20052335 = L.circleMarker(
+                [17.31864, 76.8277],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25, "stroke": true, "weight": 3}
+            ).addTo(map_6c8786382a2690f7bd62c7b0354df5ed);
+        
+    
+        var popup_779acfeac08ffa6a646c06ea34de44fe = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_fdd1ccc5c044ebd2eb6fa1b8990fdce5 = $(`<div id="html_fdd1ccc5c044ebd2eb6fa1b8990fdce5" style="width: 100.0%; height: 100.0%;">Marathi Paper Press Library</div>`)[0];
+                popup_779acfeac08ffa6a646c06ea34de44fe.setContent(html_fdd1ccc5c044ebd2eb6fa1b8990fdce5);
+            
+        
+
+        circle_marker_82d51a0c5fb30dfb13e5bccc20052335.bindPopup(popup_779acfeac08ffa6a646c06ea34de44fe)
+        ;
+
+        
+    
+    
+            var circle_marker_b33813f2311ae6093dcc850a6a6d7809 = L.circleMarker(
+                [17.31344, 76.82901],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25, "stroke": true, "weight": 3}
+            ).addTo(map_6c8786382a2690f7bd62c7b0354df5ed);
+        
+    
+        var popup_0c2a4650c2810b8473683a2b44d08ded = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_e0002866e7f570463bc4965cc723aee3 = $(`<div id="html_e0002866e7f570463bc4965cc723aee3" style="width: 100.0%; height: 100.0%;">Gurbarga Library</div>`)[0];
+                popup_0c2a4650c2810b8473683a2b44d08ded.setContent(html_e0002866e7f570463bc4965cc723aee3);
+            
+        
+
+        circle_marker_b33813f2311ae6093dcc850a6a6d7809.bindPopup(popup_0c2a4650c2810b8473683a2b44d08ded)
+        ;
+
+        
+    
+    
+            var circle_marker_ae869fe5a6ba9aa4684cce9ac28e1802 = L.circleMarker(
+                [17.32157, 76.85306],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25, "stroke": true, "weight": 3}
+            ).addTo(map_6c8786382a2690f7bd62c7b0354df5ed);
+        
+    
+        var popup_0d68c9b73e7302d4f0b61668cba18eef = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_20f24ce897ec952eef1424adb5e7be2a = $(`<div id="html_20f24ce897ec952eef1424adb5e7be2a" style="width: 100.0%; height: 100.0%;">Library</div>`)[0];
+                popup_0d68c9b73e7302d4f0b61668cba18eef.setContent(html_20f24ce897ec952eef1424adb5e7be2a);
+            
+        
+
+        circle_marker_ae869fe5a6ba9aa4684cce9ac28e1802.bindPopup(popup_0d68c9b73e7302d4f0b61668cba18eef)
+        ;
+
+        
+    
+    
+            var circle_marker_6796d11a84d1fd7387ec759b48a0f942 = L.circleMarker(
+                [17.33924, 76.82886],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25, "stroke": true, "weight": 3}
+            ).addTo(map_6c8786382a2690f7bd62c7b0354df5ed);
+        
+    
+        var popup_a43f081f849f21f4d3ee3940b84170d7 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_a67159d447cef98babddabae654a16cb = $(`<div id="html_a67159d447cef98babddabae654a16cb" style="width: 100.0%; height: 100.0%;">Gagaran Public Library</div>`)[0];
+                popup_a43f081f849f21f4d3ee3940b84170d7.setContent(html_a67159d447cef98babddabae654a16cb);
+            
+        
+
+        circle_marker_6796d11a84d1fd7387ec759b48a0f942.bindPopup(popup_a43f081f849f21f4d3ee3940b84170d7)
+        ;
+
+        
+    
+    
+            var circle_marker_c876bfcbb2d48eff612cd5513fb2b261 = L.circleMarker(
+                [17.34128, 76.84547],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25, "stroke": true, "weight": 3}
+            ).addTo(map_6c8786382a2690f7bd62c7b0354df5ed);
+        
+    
+        var popup_9e3e08da52ffac5690bc974545934622 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_3cdb2d7796a06b7bd702469ec8449efe = $(`<div id="html_3cdb2d7796a06b7bd702469ec8449efe" style="width: 100.0%; height: 100.0%;">Maulana Abul Kalam Azad</div>`)[0];
+                popup_9e3e08da52ffac5690bc974545934622.setContent(html_3cdb2d7796a06b7bd702469ec8449efe);
+            
+        
+
+        circle_marker_c876bfcbb2d48eff612cd5513fb2b261.bindPopup(popup_9e3e08da52ffac5690bc974545934622)
+        ;
+
+        
+    
+    
+            var circle_marker_09eca3fb0f4c7e73e7cd36b62b73f110 = L.circleMarker(
+                [17.32657, 76.81779],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25, "stroke": true, "weight": 3}
+            ).addTo(map_6c8786382a2690f7bd62c7b0354df5ed);
+        
+    
+        var popup_5615a21d99bb450c6815817ad006cc15 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_2d4a6e7c77792ece31a5e4f14e0bd068 = $(`<div id="html_2d4a6e7c77792ece31a5e4f14e0bd068" style="width: 100.0%; height: 100.0%;">State Library</div>`)[0];
+                popup_5615a21d99bb450c6815817ad006cc15.setContent(html_2d4a6e7c77792ece31a5e4f14e0bd068);
+            
+        
+
+        circle_marker_09eca3fb0f4c7e73e7cd36b62b73f110.bindPopup(popup_5615a21d99bb450c6815817ad006cc15)
+        ;
+
+        
+    
+    
+            var circle_marker_3c51d823c9492e08f6e50df83dc7282d = L.circleMarker(
+                [17.33527, 76.82284],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25, "stroke": true, "weight": 3}
+            ).addTo(map_6c8786382a2690f7bd62c7b0354df5ed);
+        
+    
+        var popup_e2f53e869ef2349fcbbd39652f7f5e2e = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_d93cd30c7175c4578f455571e86bd7d9 = $(`<div id="html_d93cd30c7175c4578f455571e86bd7d9" style="width: 100.0%; height: 100.0%;">Karnataka Library</div>`)[0];
+                popup_e2f53e869ef2349fcbbd39652f7f5e2e.setContent(html_d93cd30c7175c4578f455571e86bd7d9);
+            
+        
+
+        circle_marker_3c51d823c9492e08f6e50df83dc7282d.bindPopup(popup_e2f53e869ef2349fcbbd39652f7f5e2e)
+        ;
+
+        
+    
+    
+            var circle_marker_ab74bc52113e769c1e2a355b02393c48 = L.circleMarker(
+                [17.31783, 76.81506],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25, "stroke": true, "weight": 3}
+            ).addTo(map_6c8786382a2690f7bd62c7b0354df5ed);
+        
+    
+        var popup_b898abcc990d121ef4a58c91fe21e64f = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_bafd342b8cc91e032da12515e52c6d4b = $(`<div id="html_bafd342b8cc91e032da12515e52c6d4b" style="width: 100.0%; height: 100.0%;">Grameenu Library</div>`)[0];
+                popup_b898abcc990d121ef4a58c91fe21e64f.setContent(html_bafd342b8cc91e032da12515e52c6d4b);
+            
+        
+
+        circle_marker_ab74bc52113e769c1e2a355b02393c48.bindPopup(popup_b898abcc990d121ef4a58c91fe21e64f)
+        ;
+
+        
+    
+    
+            var circle_marker_89b5ddb6f671d63301632bafb00aeeb2 = L.circleMarker(
+                [17.33213, 76.81727],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25, "stroke": true, "weight": 3}
+            ).addTo(map_6c8786382a2690f7bd62c7b0354df5ed);
+        
+    
+        var popup_8910052dae21f9dc266578f497571822 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_cd744ae5e8c49a3f0450851c95e2dad1 = $(`<div id="html_cd744ae5e8c49a3f0450851c95e2dad1" style="width: 100.0%; height: 100.0%;">Government Library</div>`)[0];
+                popup_8910052dae21f9dc266578f497571822.setContent(html_cd744ae5e8c49a3f0450851c95e2dad1);
+            
+        
+
+        circle_marker_89b5ddb6f671d63301632bafb00aeeb2.bindPopup(popup_8910052dae21f9dc266578f497571822)
+        ;
+
+        
+    
+    
+            var circle_marker_65eacd6a9211cc287721f7eebf9a7a6f = L.circleMarker(
+                [17.34582, 76.83744],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25, "stroke": true, "weight": 3}
+            ).addTo(map_6c8786382a2690f7bd62c7b0354df5ed);
+        
+    
+        var popup_22fcdf8415ebf52477c37e1dc73685ba = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_d9c8b85f2f0904c56d9c15603ad599f4 = $(`<div id="html_d9c8b85f2f0904c56d9c15603ad599f4" style="width: 100.0%; height: 100.0%;">Galaxy Academic Library</div>`)[0];
+                popup_22fcdf8415ebf52477c37e1dc73685ba.setContent(html_d9c8b85f2f0904c56d9c15603ad599f4);
+            
+        
+
+        circle_marker_65eacd6a9211cc287721f7eebf9a7a6f.bindPopup(popup_22fcdf8415ebf52477c37e1dc73685ba)
+        ;
+
+        
+    
+    
+            var circle_marker_710d91c7abc289b928e64119948525e2 = L.circleMarker(
+                [17.33605, 76.81469],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25, "stroke": true, "weight": 3}
+            ).addTo(map_6c8786382a2690f7bd62c7b0354df5ed);
+        
+    
+        var popup_6cd62fa8c48fba90f7939b3df0bb266c = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_57a6eb18cf77874d39f63fb2f9483a69 = $(`<div id="html_57a6eb18cf77874d39f63fb2f9483a69" style="width: 100.0%; height: 100.0%;">Maktaba al Islam Library</div>`)[0];
+                popup_6cd62fa8c48fba90f7939b3df0bb266c.setContent(html_57a6eb18cf77874d39f63fb2f9483a69);
+            
+        
+
+        circle_marker_710d91c7abc289b928e64119948525e2.bindPopup(popup_6cd62fa8c48fba90f7939b3df0bb266c)
+        ;
+
+        
+    
+    
+            var circle_marker_6fc3145bc0d9f6effcbc854e5ec6f43b = L.circleMarker(
+                [17.34829, 76.86113],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25, "stroke": true, "weight": 3}
+            ).addTo(map_6c8786382a2690f7bd62c7b0354df5ed);
+        
+    
+        var popup_cc2347cb322fea4762da9cb40f25fc5c = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_64ebd12fc38c029d8af1373a562c4395 = $(`<div id="html_64ebd12fc38c029d8af1373a562c4395" style="width: 100.0%; height: 100.0%;">Al-Amaan Islamic Library</div>`)[0];
+                popup_cc2347cb322fea4762da9cb40f25fc5c.setContent(html_64ebd12fc38c029d8af1373a562c4395);
+            
+        
+
+        circle_marker_6fc3145bc0d9f6effcbc854e5ec6f43b.bindPopup(popup_cc2347cb322fea4762da9cb40f25fc5c)
+        ;
+
+        
+    
+    
+            var circle_marker_7692aee9044111e6b60e71a27cfd97f6 = L.circleMarker(
+                [17.33747, 76.80804],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25, "stroke": true, "weight": 3}
+            ).addTo(map_6c8786382a2690f7bd62c7b0354df5ed);
+        
+    
+        var popup_ec7a98ff91c3b3c0bdf4d2fb379c9d98 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_c4f0062b30d59e9d09540172db13e4c6 = $(`<div id="html_c4f0062b30d59e9d09540172db13e4c6" style="width: 100.0%; height: 100.0%;">Maktab al Islam Library</div>`)[0];
+                popup_ec7a98ff91c3b3c0bdf4d2fb379c9d98.setContent(html_c4f0062b30d59e9d09540172db13e4c6);
+            
+        
+
+        circle_marker_7692aee9044111e6b60e71a27cfd97f6.bindPopup(popup_ec7a98ff91c3b3c0bdf4d2fb379c9d98)
+        ;
+
+        
+    
+    
+            var circle_marker_04a711c75f0157ad796acdec0dd95714 = L.circleMarker(
+                [17.31203, 76.87763],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25, "stroke": true, "weight": 3}
+            ).addTo(map_6c8786382a2690f7bd62c7b0354df5ed);
+        
+    
+        var popup_856cce3c2565bb2f3db82a3be57c703b = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_2d0046332baa0a79a0498b19a60dc74c = $(`<div id="html_2d0046332baa0a79a0498b19a60dc74c" style="width: 100.0%; height: 100.0%;">Gulbarga University Library</div>`)[0];
+                popup_856cce3c2565bb2f3db82a3be57c703b.setContent(html_2d0046332baa0a79a0498b19a60dc74c);
+            
+        
+
+        circle_marker_04a711c75f0157ad796acdec0dd95714.bindPopup(popup_856cce3c2565bb2f3db82a3be57c703b)
+        ;
+
+        
+    
+    
+            var circle_marker_85499419adfe13ec56624adb0ebf6439 = L.circleMarker(
+                [17.36071, 76.81471],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25, "stroke": true, "weight": 3}
+            ).addTo(map_6c8786382a2690f7bd62c7b0354df5ed);
+        
+    
+        var popup_d52537a326d02c5b960d5f1da7aef6b7 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_3abe770ea35246770c80f9d76362eccf = $(`<div id="html_3abe770ea35246770c80f9d76362eccf" style="width: 100.0%; height: 100.0%;">Krishi Vigyan Kendra</div>`)[0];
+                popup_d52537a326d02c5b960d5f1da7aef6b7.setContent(html_3abe770ea35246770c80f9d76362eccf);
+            
+        
+
+        circle_marker_85499419adfe13ec56624adb0ebf6439.bindPopup(popup_d52537a326d02c5b960d5f1da7aef6b7)
+        ;
+
+        
+    
+    
+            var feature_group_d9625374da09ffcc11feb5f38d60161f = L.featureGroup(
+                {}
+            ).addTo(map_6c8786382a2690f7bd62c7b0354df5ed);
+        
+    
+            var marker_4c1a37446199c4f23cb2f052a37a45c2 = L.marker(
+                [17.320486, 76.839752],
+                {"zoomStart": 50}
+            ).addTo(map_6c8786382a2690f7bd62c7b0354df5ed);
+        
+    
+        var popup_bd58d62a9c60b9224a6ecaf7d061b74c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_971deeef91b0ff33227ae0b5bbe0609d = $(`<div id="html_971deeef91b0ff33227ae0b5bbe0609d" style="width: 100.0%; height: 100.0%;">Search place</div>`)[0];
+                popup_bd58d62a9c60b9224a6ecaf7d061b74c.setContent(html_971deeef91b0ff33227ae0b5bbe0609d);
+            
+        
+
+        marker_4c1a37446199c4f23cb2f052a37a45c2.bindPopup(popup_bd58d62a9c60b9224a6ecaf7d061b74c)
+        ;
+
+        
+    
+</script>
+</html>

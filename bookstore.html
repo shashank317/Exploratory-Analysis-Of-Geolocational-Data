@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_7edce65115ced2a3dca037392b536343 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_7edce65115ced2a3dca037392b536343" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_7edce65115ced2a3dca037392b536343 = L.map(
+                "map_7edce65115ced2a3dca037392b536343",
+                {
+                    center: [17.320486, 76.839752],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_eecadf5cf9a16117592e987ab441be32 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_7edce65115ced2a3dca037392b536343);
+        
+    
+            var circle_marker_16bd7197932abe1a6ff31282215ff9f5 = L.circleMarker(
+                [17.32362, 76.83171],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25, "stroke": true, "weight": 3}
+            ).addTo(map_7edce65115ced2a3dca037392b536343);
+        
+    
+        var popup_468b1e936efdd2b26d35ba07a7ea9ab9 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_33de58cf9935c65cb1bf549475030ef4 = $(`<div id="html_33de58cf9935c65cb1bf549475030ef4" style="width: 100.0%; height: 100.0%;">Majidqi Hatim Hawa</div>`)[0];
+                popup_468b1e936efdd2b26d35ba07a7ea9ab9.setContent(html_33de58cf9935c65cb1bf549475030ef4);
+            
+        
+
+        circle_marker_16bd7197932abe1a6ff31282215ff9f5.bindPopup(popup_468b1e936efdd2b26d35ba07a7ea9ab9)
+        ;
+
+        
+    
+    
+            var circle_marker_f53362793a996b78b2bf8e030aa602d3 = L.circleMarker(
+                [17.31568, 76.83144],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25, "stroke": true, "weight": 3}
+            ).addTo(map_7edce65115ced2a3dca037392b536343);
+        
+    
+        var popup_dc06f25dd58203ce6b25f2217857e636 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_f6999fabb825b671d68455e019ffa3ff = $(`<div id="html_f6999fabb825b671d68455e019ffa3ff" style="width: 100.0%; height: 100.0%;">Mallikarjun Book Centre</div>`)[0];
+                popup_dc06f25dd58203ce6b25f2217857e636.setContent(html_f6999fabb825b671d68455e019ffa3ff);
+            
+        
+
+        circle_marker_f53362793a996b78b2bf8e030aa602d3.bindPopup(popup_dc06f25dd58203ce6b25f2217857e636)
+        ;
+
+        
+    
+    
+            var circle_marker_584c1327fd71071ccb43c87d7333b54e = L.circleMarker(
+                [17.31607, 76.83119],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25, "stroke": true, "weight": 3}
+            ).addTo(map_7edce65115ced2a3dca037392b536343);
+        
+    
+        var popup_fc5907fcea83f76eedebce238862f11c = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_2d2ee29ee63532418dde78f4fc141c27 = $(`<div id="html_2d2ee29ee63532418dde78f4fc141c27" style="width: 100.0%; height: 100.0%;">Joshi Book Stall</div>`)[0];
+                popup_fc5907fcea83f76eedebce238862f11c.setContent(html_2d2ee29ee63532418dde78f4fc141c27);
+            
+        
+
+        circle_marker_584c1327fd71071ccb43c87d7333b54e.bindPopup(popup_fc5907fcea83f76eedebce238862f11c)
+        ;
+
+        
+    
+    
+            var circle_marker_1449ddd51d5becc47637379f0d91bea5 = L.circleMarker(
+                [17.31573, 76.83137],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25, "stroke": true, "weight": 3}
+            ).addTo(map_7edce65115ced2a3dca037392b536343);
+        
+    
+        var popup_8c8adc76114b2c8b9ec09e6192eb9420 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_4e509f4f5a61d8c72e5e6124aefaa12e = $(`<div id="html_4e509f4f5a61d8c72e5e6124aefaa12e" style="width: 100.0%; height: 100.0%;">Shiv Book Centre</div>`)[0];
+                popup_8c8adc76114b2c8b9ec09e6192eb9420.setContent(html_4e509f4f5a61d8c72e5e6124aefaa12e);
+            
+        
+
+        circle_marker_1449ddd51d5becc47637379f0d91bea5.bindPopup(popup_8c8adc76114b2c8b9ec09e6192eb9420)
+        ;
+
+        
+    
+    
+            var circle_marker_c11286bafa3a5c70b3857817cfb16ec7 = L.circleMarker(
+                [17.31554, 76.83138],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25, "stroke": true, "weight": 3}
+            ).addTo(map_7edce65115ced2a3dca037392b536343);
+        
+    
+        var popup_ff13b3b295ea3bfe1e8b2e37f48dbb1b = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_3091518c70094f74bc7e6e5c818621bb = $(`<div id="html_3091518c70094f74bc7e6e5c818621bb" style="width: 100.0%; height: 100.0%;">Malikarjuna Book Centre</div>`)[0];
+                popup_ff13b3b295ea3bfe1e8b2e37f48dbb1b.setContent(html_3091518c70094f74bc7e6e5c818621bb);
+            
+        
+
+        circle_marker_c11286bafa3a5c70b3857817cfb16ec7.bindPopup(popup_ff13b3b295ea3bfe1e8b2e37f48dbb1b)
+        ;
+
+        
+    
+    
+            var circle_marker_bfbe4e39048aa0e8b3e157da31fad339 = L.circleMarker(
+                [17.31605, 76.83096],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25, "stroke": true, "weight": 3}
+            ).addTo(map_7edce65115ced2a3dca037392b536343);
+        
+    
+        var popup_1f1ad7fbd6ddba67de5b4ae53329995d = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_0ac7b1910687277d9dee3d93d5a87c7b = $(`<div id="html_0ac7b1910687277d9dee3d93d5a87c7b" style="width: 100.0%; height: 100.0%;">Lavanya Book Store</div>`)[0];
+                popup_1f1ad7fbd6ddba67de5b4ae53329995d.setContent(html_0ac7b1910687277d9dee3d93d5a87c7b);
+            
+        
+
+        circle_marker_bfbe4e39048aa0e8b3e157da31fad339.bindPopup(popup_1f1ad7fbd6ddba67de5b4ae53329995d)
+        ;
+
+        
+    
+    
+            var circle_marker_fe21fdc5c6190b86152516c067842840 = L.circleMarker(
+                [17.31605, 76.83095],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25, "stroke": true, "weight": 3}
+            ).addTo(map_7edce65115ced2a3dca037392b536343);
+        
+    
+        var popup_c7020a7cf4a17beeb36f2cd4a31c06dc = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_ce273482b1c14144ab12048cd1a502d2 = $(`<div id="html_ce273482b1c14144ab12048cd1a502d2" style="width: 100.0%; height: 100.0%;">Shri Guru Books Department</div>`)[0];
+                popup_c7020a7cf4a17beeb36f2cd4a31c06dc.setContent(html_ce273482b1c14144ab12048cd1a502d2);
+            
+        
+
+        circle_marker_fe21fdc5c6190b86152516c067842840.bindPopup(popup_c7020a7cf4a17beeb36f2cd4a31c06dc)
+        ;
+
+        
+    
+    
+            var circle_marker_5cc3f4447e884ccd0673b15e4025b3cc = L.circleMarker(
+                [17.31608, 76.83087],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25, "stroke": true, "weight": 3}
+            ).addTo(map_7edce65115ced2a3dca037392b536343);
+        
+    
+        var popup_21a0a292620f6c1973df7abf76b32d7f = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_4a7d30ba3016a52dc39da5c1bcbe77dc = $(`<div id="html_4a7d30ba3016a52dc39da5c1bcbe77dc" style="width: 100.0%; height: 100.0%;">Career book bank</div>`)[0];
+                popup_21a0a292620f6c1973df7abf76b32d7f.setContent(html_4a7d30ba3016a52dc39da5c1bcbe77dc);
+            
+        
+
+        circle_marker_5cc3f4447e884ccd0673b15e4025b3cc.bindPopup(popup_21a0a292620f6c1973df7abf76b32d7f)
+        ;
+
+        
+    
+    
+            var circle_marker_7ab546cf02ac12d8de1d4dabe9afbdc3 = L.circleMarker(
+                [17.32964, 76.8434],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25, "stroke": true, "weight": 3}
+            ).addTo(map_7edce65115ced2a3dca037392b536343);
+        
+    
+        var popup_828a20a471add8c5880e977e9a4dc10e = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_b7c6ebbf12779f270569e6727777fd63 = $(`<div id="html_b7c6ebbf12779f270569e6727777fd63" style="width: 100.0%; height: 100.0%;">Marathi Medical Book Center</div>`)[0];
+                popup_828a20a471add8c5880e977e9a4dc10e.setContent(html_b7c6ebbf12779f270569e6727777fd63);
+            
+        
+
+        circle_marker_7ab546cf02ac12d8de1d4dabe9afbdc3.bindPopup(popup_828a20a471add8c5880e977e9a4dc10e)
+        ;
+
+        
+    
+    
+            var circle_marker_b13fa3251920843e115a05ac2d0895dc = L.circleMarker(
+                [17.31629, 76.83042],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25, "stroke": true, "weight": 3}
+            ).addTo(map_7edce65115ced2a3dca037392b536343);
+        
+    
+        var popup_59dcae5dc3da2d20a5b3e2dc06f75692 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_f733d86efdfef322e8b6c666d4a4d61e = $(`<div id="html_f733d86efdfef322e8b6c666d4a4d61e" style="width: 100.0%; height: 100.0%;">Eswar Xerox & Stationery</div>`)[0];
+                popup_59dcae5dc3da2d20a5b3e2dc06f75692.setContent(html_f733d86efdfef322e8b6c666d4a4d61e);
+            
+        
+
+        circle_marker_b13fa3251920843e115a05ac2d0895dc.bindPopup(popup_59dcae5dc3da2d20a5b3e2dc06f75692)
+        ;
+
+        
+    
+    
+            var circle_marker_5058b44f03cc9d43fb5c28c92cb572eb = L.circleMarker(
+                [17.31723, 76.82996],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25, "stroke": true, "weight": 3}
+            ).addTo(map_7edce65115ced2a3dca037392b536343);
+        
+    
+        var popup_8b3949795260ea0194fac6678c970c7d = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_5fb08b33d7b4becfddf291bedb65a085 = $(`<div id="html_5fb08b33d7b4becfddf291bedb65a085" style="width: 100.0%; height: 100.0%;">Pana Lamination Special Binding</div>`)[0];
+                popup_8b3949795260ea0194fac6678c970c7d.setContent(html_5fb08b33d7b4becfddf291bedb65a085);
+            
+        
+
+        circle_marker_5058b44f03cc9d43fb5c28c92cb572eb.bindPopup(popup_8b3949795260ea0194fac6678c970c7d)
+        ;
+
+        
+    
+    
+            var circle_marker_460db29ae5cff7dbfc1bf27cef9c94de = L.circleMarker(
+                [17.32064, 76.82935],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25, "stroke": true, "weight": 3}
+            ).addTo(map_7edce65115ced2a3dca037392b536343);
+        
+    
+        var popup_ee63224570be63d55cc56e92b39f03ef = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_614f8e0122d495f9eff5364026604ce5 = $(`<div id="html_614f8e0122d495f9eff5364026604ce5" style="width: 100.0%; height: 100.0%;">Nava Karnataka</div>`)[0];
+                popup_ee63224570be63d55cc56e92b39f03ef.setContent(html_614f8e0122d495f9eff5364026604ce5);
+            
+        
+
+        circle_marker_460db29ae5cff7dbfc1bf27cef9c94de.bindPopup(popup_ee63224570be63d55cc56e92b39f03ef)
+        ;
+
+        
+    
+    
+            var circle_marker_9cc57b1c3f96ee25dffb46eb969fa82d = L.circleMarker(
+                [17.32072, 76.82926],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25, "stroke": true, "weight": 3}
+            ).addTo(map_7edce65115ced2a3dca037392b536343);
+        
+    
+        var popup_3e9761d455b1d552c8b10b6e398f1dd8 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_19b658c145ae4bc44af940911847cb27 = $(`<div id="html_19b658c145ae4bc44af940911847cb27" style="width: 100.0%; height: 100.0%;">Paras Medical Book Stores</div>`)[0];
+                popup_3e9761d455b1d552c8b10b6e398f1dd8.setContent(html_19b658c145ae4bc44af940911847cb27);
+            
+        
+
+        circle_marker_9cc57b1c3f96ee25dffb46eb969fa82d.bindPopup(popup_3e9761d455b1d552c8b10b6e398f1dd8)
+        ;
+
+        
+    
+    
+            var circle_marker_c4515459e2c7b481af3a01ccc459c022 = L.circleMarker(
+                [17.3205, 76.82921],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25, "stroke": true, "weight": 3}
+            ).addTo(map_7edce65115ced2a3dca037392b536343);
+        
+    
+        var popup_352584dabd3b28711966fcd08f838f84 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_d8e22f060d72ff4bfcb02e267a9360cf = $(`<div id="html_d8e22f060d72ff4bfcb02e267a9360cf" style="width: 100.0%; height: 100.0%;">Balaji Medical Book Centre</div>`)[0];
+                popup_352584dabd3b28711966fcd08f838f84.setContent(html_d8e22f060d72ff4bfcb02e267a9360cf);
+            
+        
+
+        circle_marker_c4515459e2c7b481af3a01ccc459c022.bindPopup(popup_352584dabd3b28711966fcd08f838f84)
+        ;
+
+        
+    
+    
+            var circle_marker_05e8fb930b5bc211e33eaff39372b051 = L.circleMarker(
+                [17.31819, 76.82852],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25, "stroke": true, "weight": 3}
+            ).addTo(map_7edce65115ced2a3dca037392b536343);
+        
+    
+        var popup_9bcc5be5e356143f9146cf7b24f06aa8 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_70c9182de553db7626c8c9eb4155955b = $(`<div id="html_70c9182de553db7626c8c9eb4155955b" style="width: 100.0%; height: 100.0%;">Ambica Stationers</div>`)[0];
+                popup_9bcc5be5e356143f9146cf7b24f06aa8.setContent(html_70c9182de553db7626c8c9eb4155955b);
+            
+        
+
+        circle_marker_05e8fb930b5bc211e33eaff39372b051.bindPopup(popup_9bcc5be5e356143f9146cf7b24f06aa8)
+        ;
+
+        
+    
+    
+            var circle_marker_7a0182acfd5e2879afbfe48771c5225c = L.circleMarker(
+                [17.33163, 76.84052],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25, "stroke": true, "weight": 3}
+            ).addTo(map_7edce65115ced2a3dca037392b536343);
+        
+    
+        var popup_4dcbd31a215cae60af64d34040a93046 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_11e383224d88e541fa0394a6c953c35d = $(`<div id="html_11e383224d88e541fa0394a6c953c35d" style="width: 100.0%; height: 100.0%;">Praja Grandra Laya</div>`)[0];
+                popup_4dcbd31a215cae60af64d34040a93046.setContent(html_11e383224d88e541fa0394a6c953c35d);
+            
+        
+
+        circle_marker_7a0182acfd5e2879afbfe48771c5225c.bindPopup(popup_4dcbd31a215cae60af64d34040a93046)
+        ;
+
+        
+    
+    
+            var circle_marker_090b598eb100acf83ed40db074104936 = L.circleMarker(
+                [17.31937, 76.82783],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25, "stroke": true, "weight": 3}
+            ).addTo(map_7edce65115ced2a3dca037392b536343);
+        
+    
+        var popup_e90aba1bbcafb091a8488c5028c7940c = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_d4e28eaf0ff700138dad938fb9a398d4 = $(`<div id="html_d4e28eaf0ff700138dad938fb9a398d4" style="width: 100.0%; height: 100.0%;">Kalamath Book Store</div>`)[0];
+                popup_e90aba1bbcafb091a8488c5028c7940c.setContent(html_d4e28eaf0ff700138dad938fb9a398d4);
+            
+        
+
+        circle_marker_090b598eb100acf83ed40db074104936.bindPopup(popup_e90aba1bbcafb091a8488c5028c7940c)
+        ;
+
+        
+    
+    
+            var circle_marker_a3a154330cc9ce2e8b02ebb620856966 = L.circleMarker(
+                [17.33176, 76.83708],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25, "stroke": true, "weight": 3}
+            ).addTo(map_7edce65115ced2a3dca037392b536343);
+        
+    
+        var popup_3ac09f4a0a4a8c39fd382d366ec68920 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_fb2860f57c5a42eddefb6f03aa1b0ad8 = $(`<div id="html_fb2860f57c5a42eddefb6f03aa1b0ad8" style="width: 100.0%; height: 100.0%;">Rasion Book Depot Government</div>`)[0];
+                popup_3ac09f4a0a4a8c39fd382d366ec68920.setContent(html_fb2860f57c5a42eddefb6f03aa1b0ad8);
+            
+        
+
+        circle_marker_a3a154330cc9ce2e8b02ebb620856966.bindPopup(popup_3ac09f4a0a4a8c39fd382d366ec68920)
+        ;
+
+        
+    
+    
+            var circle_marker_5dc3a78b39df44859b3335aaa6e8e8f6 = L.circleMarker(
+                [17.31891, 76.82753],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25, "stroke": true, "weight": 3}
+            ).addTo(map_7edce65115ced2a3dca037392b536343);
+        
+    
+        var popup_59efcacfd396017c8309dd7d2701b8e0 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_4e7f537e8bb26577472580555d198880 = $(`<div id="html_4e7f537e8bb26577472580555d198880" style="width: 100.0%; height: 100.0%;">Unique Stationers</div>`)[0];
+                popup_59efcacfd396017c8309dd7d2701b8e0.setContent(html_4e7f537e8bb26577472580555d198880);
+            
+        
+
+        circle_marker_5dc3a78b39df44859b3335aaa6e8e8f6.bindPopup(popup_59efcacfd396017c8309dd7d2701b8e0)
+        ;
+
+        
+    
+    
+            var circle_marker_29cf0d6f872129b82d0dae0117c1decc = L.circleMarker(
+                [17.31449, 76.85062],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25, "stroke": true, "weight": 3}
+            ).addTo(map_7edce65115ced2a3dca037392b536343);
+        
+    
+        var popup_4581b44ca6a1d9be471f7fab82c54d67 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_e9d42f49a427bfb47ccb3df8c433cfd0 = $(`<div id="html_e9d42f49a427bfb47ccb3df8c433cfd0" style="width: 100.0%; height: 100.0%;">Devi Publisher</div>`)[0];
+                popup_4581b44ca6a1d9be471f7fab82c54d67.setContent(html_e9d42f49a427bfb47ccb3df8c433cfd0);
+            
+        
+
+        circle_marker_29cf0d6f872129b82d0dae0117c1decc.bindPopup(popup_4581b44ca6a1d9be471f7fab82c54d67)
+        ;
+
+        
+    
+    
+            var feature_group_79f4e5d181a2c361e4c381dc70d03ff8 = L.featureGroup(
+                {}
+            ).addTo(map_7edce65115ced2a3dca037392b536343);
+        
+    
+            var marker_5f8d9112f9bf63ff169576870053686a = L.marker(
+                [17.320486, 76.839752],
+                {"zoomStart": 50}
+            ).addTo(map_7edce65115ced2a3dca037392b536343);
+        
+    
+        var popup_9af1ce12ce54821c3ffc8520c417443d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c626ec66d0d4e4a3304f8967d343e328 = $(`<div id="html_c626ec66d0d4e4a3304f8967d343e328" style="width: 100.0%; height: 100.0%;">Search place</div>`)[0];
+                popup_9af1ce12ce54821c3ffc8520c417443d.setContent(html_c626ec66d0d4e4a3304f8967d343e328);
+            
+        
+
+        marker_5f8d9112f9bf63ff169576870053686a.bindPopup(popup_9af1ce12ce54821c3ffc8520c417443d)
+        ;
+
+        
+    
+</script>
+</html>

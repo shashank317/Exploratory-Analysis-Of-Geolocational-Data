@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_954dee5cfd18a7ca9c71f36579259850 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_954dee5cfd18a7ca9c71f36579259850" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_954dee5cfd18a7ca9c71f36579259850 = L.map(
+                "map_954dee5cfd18a7ca9c71f36579259850",
+                {
+                    center: [17.320486, 76.839752],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_a37a2dfcee3e244637d050ebb47caa46 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_954dee5cfd18a7ca9c71f36579259850);
+        
+    
+            var circle_marker_a488d37a7bf59e7267510e1faff05553 = L.circleMarker(
+                [17.32208, 76.83283],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25, "stroke": true, "weight": 3}
+            ).addTo(map_954dee5cfd18a7ca9c71f36579259850);
+        
+    
+        var popup_632b96f9ce93aff0ea459ba9de62054a = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_ced31ecbc571e0cb8aef35bfff093aa5 = $(`<div id="html_ced31ecbc571e0cb8aef35bfff093aa5" style="width: 100.0%; height: 100.0%;">Standard Health and Fitness</div>`)[0];
+                popup_632b96f9ce93aff0ea459ba9de62054a.setContent(html_ced31ecbc571e0cb8aef35bfff093aa5);
+            
+        
+
+        circle_marker_a488d37a7bf59e7267510e1faff05553.bindPopup(popup_632b96f9ce93aff0ea459ba9de62054a)
+        ;
+
+        
+    
+    
+            var circle_marker_3c45870d9457016493b38e46c792aca7 = L.circleMarker(
+                [17.3259, 76.83445],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25, "stroke": true, "weight": 3}
+            ).addTo(map_954dee5cfd18a7ca9c71f36579259850);
+        
+    
+        var popup_dc0b6d1cd18e6a988ecad6513b1fbe39 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_d66a29a8cc1d6fbf8b8fd5654be9c203 = $(`<div id="html_d66a29a8cc1d6fbf8b8fd5654be9c203" style="width: 100.0%; height: 100.0%;">Aerofit</div>`)[0];
+                popup_dc0b6d1cd18e6a988ecad6513b1fbe39.setContent(html_d66a29a8cc1d6fbf8b8fd5654be9c203);
+            
+        
+
+        circle_marker_3c45870d9457016493b38e46c792aca7.bindPopup(popup_dc0b6d1cd18e6a988ecad6513b1fbe39)
+        ;
+
+        
+    
+    
+            var circle_marker_d4c7dafb76f13af61769f716352422dc = L.circleMarker(
+                [17.3259, 76.83445],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25, "stroke": true, "weight": 3}
+            ).addTo(map_954dee5cfd18a7ca9c71f36579259850);
+        
+    
+        var popup_4d987b3bc5e9f3ceb99c5f3ff9f4b11d = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_9dc8cb0bf9cfa5f6514711b8e32a4fa1 = $(`<div id="html_9dc8cb0bf9cfa5f6514711b8e32a4fa1" style="width: 100.0%; height: 100.0%;">V One Fitness Centre</div>`)[0];
+                popup_4d987b3bc5e9f3ceb99c5f3ff9f4b11d.setContent(html_9dc8cb0bf9cfa5f6514711b8e32a4fa1);
+            
+        
+
+        circle_marker_d4c7dafb76f13af61769f716352422dc.bindPopup(popup_4d987b3bc5e9f3ceb99c5f3ff9f4b11d)
+        ;
+
+        
+    
+    
+            var circle_marker_5acff49b9f9fe7de55d8b97061a74a18 = L.circleMarker(
+                [17.3259, 76.83445],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25, "stroke": true, "weight": 3}
+            ).addTo(map_954dee5cfd18a7ca9c71f36579259850);
+        
+    
+        var popup_abc4f33d6e18341c59d601d157e574c4 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_d315506cbc2e076f306e86f1a1e65c4c = $(`<div id="html_d315506cbc2e076f306e86f1a1e65c4c" style="width: 100.0%; height: 100.0%;">Stayfit</div>`)[0];
+                popup_abc4f33d6e18341c59d601d157e574c4.setContent(html_d315506cbc2e076f306e86f1a1e65c4c);
+            
+        
+
+        circle_marker_5acff49b9f9fe7de55d8b97061a74a18.bindPopup(popup_abc4f33d6e18341c59d601d157e574c4)
+        ;
+
+        
+    
+    
+            var circle_marker_d87b8cfdbaf1012ce88d8037a8c64d92 = L.circleMarker(
+                [17.32927, 76.83617],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25, "stroke": true, "weight": 3}
+            ).addTo(map_954dee5cfd18a7ca9c71f36579259850);
+        
+    
+        var popup_18fe7d9b61749d09665c08ed05d7c733 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_6317f4829db0fb4436a3c549ccddea1d = $(`<div id="html_6317f4829db0fb4436a3c549ccddea1d" style="width: 100.0%; height: 100.0%;">Health Training Center</div>`)[0];
+                popup_18fe7d9b61749d09665c08ed05d7c733.setContent(html_6317f4829db0fb4436a3c549ccddea1d);
+            
+        
+
+        circle_marker_d87b8cfdbaf1012ce88d8037a8c64d92.bindPopup(popup_18fe7d9b61749d09665c08ed05d7c733)
+        ;
+
+        
+    
+    
+            var circle_marker_5d07b36ea76e31e5b377fb66414a19a1 = L.circleMarker(
+                [17.31683, 76.83018],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25, "stroke": true, "weight": 3}
+            ).addTo(map_954dee5cfd18a7ca9c71f36579259850);
+        
+    
+        var popup_6e9ad30b7e1cab311bca91472a982f3a = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_fe73cc7c0c9f2b8b9a3c496a49cfd4bd = $(`<div id="html_fe73cc7c0c9f2b8b9a3c496a49cfd4bd" style="width: 100.0%; height: 100.0%;">Iram Fitness Centre</div>`)[0];
+                popup_6e9ad30b7e1cab311bca91472a982f3a.setContent(html_fe73cc7c0c9f2b8b9a3c496a49cfd4bd);
+            
+        
+
+        circle_marker_5d07b36ea76e31e5b377fb66414a19a1.bindPopup(popup_6e9ad30b7e1cab311bca91472a982f3a)
+        ;
+
+        
+    
+    
+            var circle_marker_cb04ec4e5c629eb1b5ba4cb9b73f7f24 = L.circleMarker(
+                [17.32433, 76.82806],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25, "stroke": true, "weight": 3}
+            ).addTo(map_954dee5cfd18a7ca9c71f36579259850);
+        
+    
+        var popup_7f93fa1e19f3d51cdbf3e7ab3c10909b = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_78efe336192e536e17558614bed46551 = $(`<div id="html_78efe336192e536e17558614bed46551" style="width: 100.0%; height: 100.0%;">Way 2 Health Acoheeday Venture</div>`)[0];
+                popup_7f93fa1e19f3d51cdbf3e7ab3c10909b.setContent(html_78efe336192e536e17558614bed46551);
+            
+        
+
+        circle_marker_cb04ec4e5c629eb1b5ba4cb9b73f7f24.bindPopup(popup_7f93fa1e19f3d51cdbf3e7ab3c10909b)
+        ;
+
+        
+    
+    
+            var circle_marker_04850e6df0166512763008aebee46b7e = L.circleMarker(
+                [17.33274, 76.84035],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25, "stroke": true, "weight": 3}
+            ).addTo(map_954dee5cfd18a7ca9c71f36579259850);
+        
+    
+        var popup_d3b7e936bcaec07d7e4fce08a86fba16 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_2ca66bbabf8060ae74dcbba574d94425 = $(`<div id="html_2ca66bbabf8060ae74dcbba574d94425" style="width: 100.0%; height: 100.0%;">Perfectfitness</div>`)[0];
+                popup_d3b7e936bcaec07d7e4fce08a86fba16.setContent(html_2ca66bbabf8060ae74dcbba574d94425);
+            
+        
+
+        circle_marker_04850e6df0166512763008aebee46b7e.bindPopup(popup_d3b7e936bcaec07d7e4fce08a86fba16)
+        ;
+
+        
+    
+    
+            var circle_marker_0b7e9cc83dbb7fc345545cfa5fcd0e9f = L.circleMarker(
+                [17.33331, 76.83879],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25, "stroke": true, "weight": 3}
+            ).addTo(map_954dee5cfd18a7ca9c71f36579259850);
+        
+    
+        var popup_0a362bd7781d2bff9a0a4cddeeadf19a = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_cd2b3a182e0c6824ce186da67c9e0ab2 = $(`<div id="html_cd2b3a182e0c6824ce186da67c9e0ab2" style="width: 100.0%; height: 100.0%;">Dantalaya Health Center</div>`)[0];
+                popup_0a362bd7781d2bff9a0a4cddeeadf19a.setContent(html_cd2b3a182e0c6824ce186da67c9e0ab2);
+            
+        
+
+        circle_marker_0b7e9cc83dbb7fc345545cfa5fcd0e9f.bindPopup(popup_0a362bd7781d2bff9a0a4cddeeadf19a)
+        ;
+
+        
+    
+    
+            var circle_marker_39bbfba37edd9c3f4740dc926c4d741b = L.circleMarker(
+                [17.32697, 76.85361],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25, "stroke": true, "weight": 3}
+            ).addTo(map_954dee5cfd18a7ca9c71f36579259850);
+        
+    
+        var popup_ddd8d650a3e85cb4e0e5f64319160a47 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_676ba55c7c88a1084b11e8f798160490 = $(`<div id="html_676ba55c7c88a1084b11e8f798160490" style="width: 100.0%; height: 100.0%;">Apple Fitness Center</div>`)[0];
+                popup_ddd8d650a3e85cb4e0e5f64319160a47.setContent(html_676ba55c7c88a1084b11e8f798160490);
+            
+        
+
+        circle_marker_39bbfba37edd9c3f4740dc926c4d741b.bindPopup(popup_ddd8d650a3e85cb4e0e5f64319160a47)
+        ;
+
+        
+    
+    
+            var circle_marker_01111033cfcadbbc14fc4328bfe67802 = L.circleMarker(
+                [17.32694, 76.85449],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25, "stroke": true, "weight": 3}
+            ).addTo(map_954dee5cfd18a7ca9c71f36579259850);
+        
+    
+        var popup_bc6ac54d38e833f9ac5941162d3bd1dc = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_6252b23cd307c863da9516c6e582a748 = $(`<div id="html_6252b23cd307c863da9516c6e582a748" style="width: 100.0%; height: 100.0%;">Power Gym Gulbarga</div>`)[0];
+                popup_bc6ac54d38e833f9ac5941162d3bd1dc.setContent(html_6252b23cd307c863da9516c6e582a748);
+            
+        
+
+        circle_marker_01111033cfcadbbc14fc4328bfe67802.bindPopup(popup_bc6ac54d38e833f9ac5941162d3bd1dc)
+        ;
+
+        
+    
+    
+            var circle_marker_53b009ee8f6ab8fc8ace9aeb6b4a16a6 = L.circleMarker(
+                [17.33633, 76.83729],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25, "stroke": true, "weight": 3}
+            ).addTo(map_954dee5cfd18a7ca9c71f36579259850);
+        
+    
+        var popup_dcd5bcd9b2705803a7655d18ac4ced9f = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_fbff11eb9c4a18657e86c54a1a60994b = $(`<div id="html_fbff11eb9c4a18657e86c54a1a60994b" style="width: 100.0%; height: 100.0%;">Golden Gym</div>`)[0];
+                popup_dcd5bcd9b2705803a7655d18ac4ced9f.setContent(html_fbff11eb9c4a18657e86c54a1a60994b);
+            
+        
+
+        circle_marker_53b009ee8f6ab8fc8ace9aeb6b4a16a6.bindPopup(popup_dcd5bcd9b2705803a7655d18ac4ced9f)
+        ;
+
+        
+    
+    
+            var circle_marker_33227169221e5389d4810bc03fe6c700 = L.circleMarker(
+                [17.32651, 76.85597],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25, "stroke": true, "weight": 3}
+            ).addTo(map_954dee5cfd18a7ca9c71f36579259850);
+        
+    
+        var popup_c73d261b0f7857d74905b416f982e399 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_517a6681e38c40891d40aad7dcb5c7fc = $(`<div id="html_517a6681e38c40891d40aad7dcb5c7fc" style="width: 100.0%; height: 100.0%;">Six Packs Gym</div>`)[0];
+                popup_c73d261b0f7857d74905b416f982e399.setContent(html_517a6681e38c40891d40aad7dcb5c7fc);
+            
+        
+
+        circle_marker_33227169221e5389d4810bc03fe6c700.bindPopup(popup_c73d261b0f7857d74905b416f982e399)
+        ;
+
+        
+    
+    
+            var circle_marker_aed2ea2b9efef6f956a8491014f90ff0 = L.circleMarker(
+                [17.32627, 76.85629],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25, "stroke": true, "weight": 3}
+            ).addTo(map_954dee5cfd18a7ca9c71f36579259850);
+        
+    
+        var popup_b5a908abfe4c1a4e0f4d64f5811cbdf6 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_9ed67cf8be433e12e49e14bf215cdf65 = $(`<div id="html_9ed67cf8be433e12e49e14bf215cdf65" style="width: 100.0%; height: 100.0%;">Rock</div>`)[0];
+                popup_b5a908abfe4c1a4e0f4d64f5811cbdf6.setContent(html_9ed67cf8be433e12e49e14bf215cdf65);
+            
+        
+
+        circle_marker_aed2ea2b9efef6f956a8491014f90ff0.bindPopup(popup_b5a908abfe4c1a4e0f4d64f5811cbdf6)
+        ;
+
+        
+    
+    
+            var circle_marker_fc9cb6f88f83d4710ebc00fff488e7ed = L.circleMarker(
+                [17.3261, 76.85758],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25, "stroke": true, "weight": 3}
+            ).addTo(map_954dee5cfd18a7ca9c71f36579259850);
+        
+    
+        var popup_8f38011cc81ac1168a873a78c50cee13 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_80c5df332f6c075f6a7e6d908cb27b36 = $(`<div id="html_80c5df332f6c075f6a7e6d908cb27b36" style="width: 100.0%; height: 100.0%;">Bhavya Fitness Centre</div>`)[0];
+                popup_8f38011cc81ac1168a873a78c50cee13.setContent(html_80c5df332f6c075f6a7e6d908cb27b36);
+            
+        
+
+        circle_marker_fc9cb6f88f83d4710ebc00fff488e7ed.bindPopup(popup_8f38011cc81ac1168a873a78c50cee13)
+        ;
+
+        
+    
+    
+            var circle_marker_eaa063ee07f2b01ec15b9dd95a3a5ad8 = L.circleMarker(
+                [17.33891, 76.83786],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25, "stroke": true, "weight": 3}
+            ).addTo(map_954dee5cfd18a7ca9c71f36579259850);
+        
+    
+        var popup_60eb8c56432fd13cb4309c57a17c1b41 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_66a066c2a067cd8bb7e4209316c7caa3 = $(`<div id="html_66a066c2a067cd8bb7e4209316c7caa3" style="width: 100.0%; height: 100.0%;">Modern Body Care Gym</div>`)[0];
+                popup_60eb8c56432fd13cb4309c57a17c1b41.setContent(html_66a066c2a067cd8bb7e4209316c7caa3);
+            
+        
+
+        circle_marker_eaa063ee07f2b01ec15b9dd95a3a5ad8.bindPopup(popup_60eb8c56432fd13cb4309c57a17c1b41)
+        ;
+
+        
+    
+    
+            var circle_marker_2ee5b7599d774c4553005d5a645eeab1 = L.circleMarker(
+                [17.33884, 76.83592],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25, "stroke": true, "weight": 3}
+            ).addTo(map_954dee5cfd18a7ca9c71f36579259850);
+        
+    
+        var popup_4c9b81eede2c6f7cc6c5428369f634e8 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_6640d78dedd9beffa069dba57da746db = $(`<div id="html_6640d78dedd9beffa069dba57da746db" style="width: 100.0%; height: 100.0%;">Shiram Health Centre</div>`)[0];
+                popup_4c9b81eede2c6f7cc6c5428369f634e8.setContent(html_6640d78dedd9beffa069dba57da746db);
+            
+        
+
+        circle_marker_2ee5b7599d774c4553005d5a645eeab1.bindPopup(popup_4c9b81eede2c6f7cc6c5428369f634e8)
+        ;
+
+        
+    
+    
+            var circle_marker_01554988ff3f4402c0047c38503f70ea = L.circleMarker(
+                [17.33924, 76.83422],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25, "stroke": true, "weight": 3}
+            ).addTo(map_954dee5cfd18a7ca9c71f36579259850);
+        
+    
+        var popup_705c684b10e4a28eb65551cb3dcc3064 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_098fb1d050ae5c395798fc8bde6cadb7 = $(`<div id="html_098fb1d050ae5c395798fc8bde6cadb7" style="width: 100.0%; height: 100.0%;">Atlas Gym</div>`)[0];
+                popup_705c684b10e4a28eb65551cb3dcc3064.setContent(html_098fb1d050ae5c395798fc8bde6cadb7);
+            
+        
+
+        circle_marker_01554988ff3f4402c0047c38503f70ea.bindPopup(popup_705c684b10e4a28eb65551cb3dcc3064)
+        ;
+
+        
+    
+    
+            var circle_marker_bdea052b6f5033fb36961181fa811498 = L.circleMarker(
+                [17.32377, 76.86096],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25, "stroke": true, "weight": 3}
+            ).addTo(map_954dee5cfd18a7ca9c71f36579259850);
+        
+    
+        var popup_db7ca2040fac983620b17c04fbfa640a = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_291e1dae20ff5e34954c4f9b4ec970ec = $(`<div id="html_291e1dae20ff5e34954c4f9b4ec970ec" style="width: 100.0%; height: 100.0%;">Yoga Centre</div>`)[0];
+                popup_db7ca2040fac983620b17c04fbfa640a.setContent(html_291e1dae20ff5e34954c4f9b4ec970ec);
+            
+        
+
+        circle_marker_bdea052b6f5033fb36961181fa811498.bindPopup(popup_db7ca2040fac983620b17c04fbfa640a)
+        ;
+
+        
+    
+    
+            var circle_marker_11bb182cc1c64d5bc5c7e2c9bb77d351 = L.circleMarker(
+                [17.32469, 76.86229],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25, "stroke": true, "weight": 3}
+            ).addTo(map_954dee5cfd18a7ca9c71f36579259850);
+        
+    
+        var popup_5dcf815b2af680c2115ff00b7ca37fef = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_1daac3216450cb72a8bf44aa76c44800 = $(`<div id="html_1daac3216450cb72a8bf44aa76c44800" style="width: 100.0%; height: 100.0%;">Snap Fitness</div>`)[0];
+                popup_5dcf815b2af680c2115ff00b7ca37fef.setContent(html_1daac3216450cb72a8bf44aa76c44800);
+            
+        
+
+        circle_marker_11bb182cc1c64d5bc5c7e2c9bb77d351.bindPopup(popup_5dcf815b2af680c2115ff00b7ca37fef)
+        ;
+
+        
+    
+    
+            var feature_group_e60109b109fcc4006cf737295b74988c = L.featureGroup(
+                {}
+            ).addTo(map_954dee5cfd18a7ca9c71f36579259850);
+        
+    
+            var marker_4a0dcc1d273138b9e48fa1618c017769 = L.marker(
+                [17.320486, 76.839752],
+                {"zoomStart": 50}
+            ).addTo(map_954dee5cfd18a7ca9c71f36579259850);
+        
+    
+        var popup_bdde517a9732352e5103cd77894f9a26 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0d538fba11a303a1b4793fa87ed8adc2 = $(`<div id="html_0d538fba11a303a1b4793fa87ed8adc2" style="width: 100.0%; height: 100.0%;">Search place</div>`)[0];
+                popup_bdde517a9732352e5103cd77894f9a26.setContent(html_0d538fba11a303a1b4793fa87ed8adc2);
+            
+        
+
+        marker_4a0dcc1d273138b9e48fa1618c017769.bindPopup(popup_bdde517a9732352e5103cd77894f9a26)
+        ;
+
+        
+    
+</script>
+</html>
